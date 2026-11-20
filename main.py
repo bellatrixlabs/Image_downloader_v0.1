@@ -5,12 +5,9 @@ from rich import print
 import random
 from rich.console import Console 
 
-
 imagens_baixadas = 0
 
-
 console = Console()
-
 
 n_a = random.randint(0,100000000667654470000)
 
@@ -19,8 +16,6 @@ console.print("[bold]Image Downloader\n")
 print(f"Downloads feitos hoje: {imagens_baixadas}\n")
 
 pasta = "/sdcard/"
-
-
 
 while True:
     link = input("Digite um link: ")
@@ -42,5 +37,3 @@ while True:
 
     else:
         console.print("[red] Falha ao acessar site.\n")
-        
-        
