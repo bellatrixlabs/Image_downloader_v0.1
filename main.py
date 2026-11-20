@@ -11,7 +11,6 @@ console = Console()
 
 n_a = random.randint(0,100000000667654470000)
 
-
 console.print("[bold]Image Downloader\n")
 print(f"Downloads feitos hoje: {imagens_baixadas}\n")
 
